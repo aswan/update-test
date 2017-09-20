@@ -1,0 +1,18 @@
+{
+  "addons": {
+    "addon@tests.mozilla.org": {
+      "updates": [
+        {
+          "version": "2.0",
+          "update_link": "http://@HOST@:@PORT@/v2.xpi",
+          "applications": {
+            "gecko": {
+              "strict_min_version": "50.0",
+              "strict_max_version": "59.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

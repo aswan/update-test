@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "test",
+  "description": "test",
+  "version": "1.0",
+
+  "applications": {
+    "gecko": {
+      "id": "addon@tests.mozilla.org",
+      "update_url": "http://@HOST@:@PORT@/update.json"
+    }
+  },
+
+  "permissions": []
+}
